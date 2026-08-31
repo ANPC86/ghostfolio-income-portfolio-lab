@@ -1,0 +1,32 @@
+# mhajder/ghostfolio-mcp — a full-featured MCP server for one Ghostfolio user, served over HTTP.
+#
+#   cp .env.example .env            # Ghostfolio URL, the user's security token, a client bearer
+#   docker compose up -d
+#
+# It joins the Ghostfolio stack's network so GHOSTFOLIO_URL can be the container name
+# (http://ghostfolio:3333). Publish one port per user you serve; run this file once per
+# user with a different project name, .env and port, and register each as a distinct MCP
+# server in your assistant — an assistant "pointed at Ghostfolio" cannot tell them apart.
+name: ghostfolio-mcp
+
+services:
+  ghostfolio-mcp:
+    image: ghcr.io/mhajder/ghostfolio-mcp:1.6.1
+    container_name: ghostfolio-mcp
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      MCP_TRANSPORT: http
+      MCP_HTTP_HOST: 0.0.0.0
+      MCP_HTTP_PORT: "8000"
+      SENTRY_SEND_DEFAULT_PII: "false"
+    ports:
+      - "8438:8000"
+    networks:
+      - ghostfolio_default
+
+networks:
+  # Created by compose/ghostfolio (project name "ghostfolio" -> network "ghostfolio_default").
+  ghostfolio_default:
+    external: true

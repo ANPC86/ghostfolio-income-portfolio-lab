@@ -4,7 +4,7 @@ Self-host [Ghostfolio](https://github.com/ghostfolio/ghostfolio) on a home NAS, 
 
 The sample data is synthetic: a demo user's activity history priced from public market data. No real holdings, balances, or account identifiers appear anywhere in this repository.
 
-Scope: a working setup path with the parts that are not obvious from the upstream README written down.
+Scope: a working setup path with the parts that are not obvious from the upstream README written down — compose files, first run, a sample import, an MCP server, and a bounded procedure for letting an assistant record activities.
 
 ---
 
@@ -30,7 +30,7 @@ Verified against Ghostfolio **3.63.0** (2026-08-28). Upstream's own instructions
 
 ### 1.1 Compose stack
 
-Upstream ships `docker/docker-compose.yml` with three services — `ghostfolio`, `postgres` (15-alpine), `redis` — all reading one `.env`. The minimum `.env`:
+[`compose/ghostfolio/`](compose/ghostfolio/) holds a ready-to-run stack — Ghostfolio, Postgres 18, Redis, and an opt-in daily backup sidecar — derived from upstream's `docker/docker-compose.yml` with pinned tags. Copy its `.env.example` to `.env` and fill in the four random values. The minimum `.env`:
 
 ```dotenv
 COMPOSE_PROJECT_NAME=ghostfolio
@@ -46,8 +46,9 @@ DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${
 ```
 
 ```bash
-docker compose -f docker/docker-compose.yml up -d
-curl -f http://localhost:3333/api/v1/health     # {"status":"OK"}
+cd compose/ghostfolio && cp .env.example .env    # edit the <random> values
+docker compose --profile backup up -d            # omit --profile backup to skip the dump sidecar
+curl -f http://localhost:3333/api/v1/health      # {"status":"OK"}
 ```
 
 Things worth knowing before the first `up`:
@@ -112,7 +113,7 @@ Two routes exist as of 3.63.0. They are not equivalent.
 | Writes | No, by design | Yes unless `READ_ONLY_MODE=true` |
 | Credential | An **Access** of type MCP created under *My Ghostfolio → Access*; that access id is the bearer | The user's security token in the container env, plus its own bearer for clients |
 
-For a demo user the sidecar in read-only mode is the practical choice: an assistant can actually see the numbers it is asked about, and the account cannot be altered. Configuration that matters:
+For a demo user the sidecar in read-only mode is the practical choice: an assistant can actually see the numbers it is asked about, and the account cannot be altered. [`compose/ghostfolio-mcp/`](compose/ghostfolio-mcp/) is a ready-to-run stack for it; the configuration that matters:
 
 ```dotenv
 GHOSTFOLIO_URL=http://ghostfolio:3333      # must include the scheme — without it every tool call fails with
@@ -130,11 +131,20 @@ Publish the container's port like any other service (`ports: ["8444:8001"]` on t
 
 ---
 
+## 3. Letting an AI assistant record activities
+
+Reading is the easy half. Recording a trade or a dividend the assistant was told about is where an unconstrained tool list goes wrong — first symbol match taken, a fee invented to make a total reconcile, the same dividend written twice. [`agent/`](agent/) packages a bounded procedure for it: resolve from what is held, validate the arithmetic, check for duplicates, show the proposed record, **write only on explicit authorisation**, verify from the record. It ships as a Claude Code sub-agent and skill, and as a system prompt for any other MCP-capable assistant. Setup steps are in [`agent/README.md`](agent/README.md).
+
+---
+
 ## Layout
 
 ```
+compose/ghostfolio/                    Ghostfolio + Postgres + Redis (+ backup) compose stack
+compose/ghostfolio-mcp/                mhajder/ghostfolio-mcp compose stack, one per Ghostfolio user
 fixtures/demo-holdings.json            the sample portfolio's positions and weights
 fixtures/demo-activities.import.json   its 374 activities in Ghostfolio import format
+agent/                                 activity-recording procedure: Claude Code agent + skill, generic system prompt
 tools/screenshots.mjs                  Playwright tour of a Ghostfolio user
 docs/screenshots/                      the tour, captured from the demo user
 ```

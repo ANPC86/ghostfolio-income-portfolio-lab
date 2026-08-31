@@ -1,0 +1,108 @@
+# Ghostfolio on a home NAS — app, Postgres, Redis, and an optional daily backup sidecar.
+#
+#   cp .env.example .env            # then fill in the four <random> values
+#   docker compose up -d
+#   docker compose --profile backup up -d   # same, plus the backup sidecar
+#
+# Derived from upstream's docker/docker-compose.yml (Ghostfolio 3.64.0). Differences:
+# image tags are pinned, Postgres 18 mounts at its new data path, and the backup
+# sidecar is included behind a compose profile so it is opt-in.
+name: ghostfolio
+
+services:
+  ghostfolio:
+    image: docker.io/ghostfolio/ghostfolio:3.64.0
+    container_name: ghostfolio
+    restart: unless-stopped
+    init: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    env_file:
+      - .env
+    ports:
+      - "3333:3333"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:3333/api/v1/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  postgres:
+    image: docker.io/library/postgres:18-alpine
+    container_name: ghostfolio-db
+    restart: unless-stopped
+    cap_drop:
+      - ALL
+    cap_add:
+      - CHOWN
+      - DAC_READ_SEARCH
+      - FOWNER
+      - SETGID
+      - SETUID
+    security_opt:
+      - no-new-privileges:true
+    env_file:
+      - .env
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -d \"$${POSTGRES_DB}\" -U $${POSTGRES_USER}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    volumes:
+      # Postgres 18 keeps its data under /var/lib/postgresql (not .../data as in 15–17).
+      - postgres:/var/lib/postgresql
+
+  redis:
+    image: docker.io/library/redis:8-alpine
+    container_name: ghostfolio-redis
+    restart: unless-stopped
+    user: "999:1000"
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    env_file:
+      - .env
+    command:
+      - /bin/sh
+      - -c
+      - redis-server --requirepass "$${REDIS_PASSWORD:?REDIS_PASSWORD variable is not set}"
+    healthcheck:
+      test: ["CMD-SHELL", "redis-cli --pass \"$${REDIS_PASSWORD}\" ping | grep PONG"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Optional: a daily pg_dump into ./backups (gzip), rotated by age.
+  # Enable with `docker compose --profile backup up -d`.
+  backup:
+    image: docker.io/prodrigestivill/postgres-backup-local:18
+    container_name: ghostfolio-db-backup
+    restart: unless-stopped
+    profiles:
+      - backup
+    depends_on:
+      postgres:
+        condition: service_healthy
+    env_file:
+      - .env
+    environment:
+      POSTGRES_HOST: postgres
+      SCHEDULE: "@daily"
+      BACKUP_KEEP_DAYS: "7"
+      BACKUP_KEEP_WEEKS: "4"
+      BACKUP_KEEP_MONTHS: "6"
+      BACKUP_ON_START: "true"
+      HEALTHCHECK_PORT: "8080"
+    volumes:
+      - ./backups:/backups
+
+volumes:
+  postgres:
