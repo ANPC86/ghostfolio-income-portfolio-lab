@@ -33,12 +33,24 @@ Illustrative transcript, synthetic figures. The account is a TFSA at a Canadian 
 
 **You:** Two notifications from today, TFSA. Record both.
 
-> Your order to buy 14 shares of XEQT has been filled.
-> Average price: $34.12 per share · Total: $477.68 · Account: TFSA
-> Filled Aug 28, 2026, 9:47 a.m. ET
+Email 1 — order fill:
 
-> You received a dividend of $48.60 from VFV in your TFSA.
-> Paid Aug 28, 2026
+```text
+Your order to buy 14 shares of XEQT has been filled.
+
+Average price:  $34.12 per share
+Total:          $477.68
+Account:        TFSA
+Filled:         Aug 28, 2026, 9:47 a.m. ET
+```
+
+Email 2 — dividend:
+
+```text
+You received a dividend of $48.60 from VFV in your TFSA.
+
+Paid:           Aug 28, 2026
+```
 
 **Claude (ghostfolio-updater):** I'll prepare both. Nothing is written until you confirm each record.
 
