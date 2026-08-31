@@ -1,4 +1,4 @@
-# Ghostfolio Income-Portfolio Lab
+# Ghostfolio on a NAS
 
 Self-host [Ghostfolio](https://github.com/ghostfolio/ghostfolio) on a home NAS, load a **synthetic** covered-call ETF portfolio into it, and connect an MCP server so an AI assistant can read it.
 
