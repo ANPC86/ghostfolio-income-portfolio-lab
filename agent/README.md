@@ -25,6 +25,97 @@ The procedure is the product; the Claude and prompt files are thin wrappers that
 
 It does not give investment advice, decide allocation, bulk-import, or change Ghostfolio configuration.
 
+## Walkthrough — what a session looks like
+
+Illustrative transcript, synthetic figures. The account is a TFSA at a Canadian brokerage, the cache was refreshed with `/ghostfolio-sync` that morning, and the operator pastes the two notification emails the brokerage sent. Tool calls the agent makes are shown in brackets.
+
+---
+
+**You:** Two notifications from today, TFSA. Record both.
+
+> Your order to buy 14 shares of XEQT has been filled.
+> Average price: $34.12 per share · Total: $477.68 · Account: TFSA
+> Filled Aug 28, 2026, 9:47 a.m. ET
+
+> You received a dividend of $48.60 from VFV in your TFSA.
+> Paid Aug 28, 2026
+
+**Claude (ghostfolio-updater):** I'll prepare both. Nothing is written until you confirm each record.
+
+*[Read `.local/ghostfolio-cache.json` — asof 2026-08-28T13:02Z, 3 accounts, 12 holdings]*
+
+**Order fill**
+
+- Account `TFSA` → resolved from the cache.
+- Broker ticker `XEQT`: the cache holds `XEQT.TO` (iShares Core Equity ETF Portfolio, CAD, YAHOO). High-confidence match; no lookup needed.
+- Arithmetic: 14 × 34.12 = 477.68, matches the stated total to the cent. No fee implied.
+- Date: 2026-08-28 09:47 ET → `2026-08-28T13:47:00.000Z`.
+
+*[`get_orders` for TFSA — no BUY of XEQT.TO on 2026-08-28 with quantity 14 at 34.12]*
+
+| field | value |
+|---|---|
+| type | BUY |
+| symbol | XEQT.TO — iShares Core Equity ETF Portfolio |
+| account | TFSA |
+| date | 2026-08-28T13:47:00.000Z |
+| quantity | 14 |
+| unit price | 34.12 CAD |
+| fee | 0.00 |
+| data source | YAHOO |
+| net | −477.68 CAD |
+
+**Dividend**
+
+- Broker ticker `VFV`: the cache holds `VFV.TO` (Vanguard S&P 500 Index ETF, CAD), 120 units.
+- Canadian-listed, so no withholding: `fee = 0`, gross = net = 48.60.
+- Per-unit rate implied by the held quantity: 48.60 / 120 = 0.405. The brokerage stated only the total, so I will record the payment as it was given — `quantity 1`, `unit price 48.60` — rather than derive a rate the source did not state.
+
+*[`get_dividends_for_import` for VFV.TO / YAHOO — the latest cycle is dated **2026-08-15** (ex-dividend), rate 0.4050]*
+
+- The data source's per-unit rate agrees with the implied one, which corroborates the amount. The date differs: the brokerage paid on the 28th, the data source records the ex-date, 15 August. I'll date the record **2026-08-15** so it lines up with the series Ghostfolio's duplicate detection works from; the email date is evidence, not the record date.
+- The cycle is not flagged `IS_DUPLICATE` and `get_orders` shows no VFV.TO dividend on 2026-08-15.
+
+| field | value |
+|---|---|
+| type | DIVIDEND |
+| symbol | VFV.TO — Vanguard S&P 500 Index ETF |
+| account | TFSA |
+| date | 2026-08-15T00:00:00.000Z (ex-dividend date; paid 2026-08-28) |
+| quantity | 1 |
+| unit price | 48.60 CAD |
+| fee | 0.00 |
+| data source | YAHOO |
+| net | +48.60 CAD |
+
+Confirm each: **(a)** the XEQT.TO buy, **(b)** the VFV.TO dividend.
+
+**You:** a and b, go.
+
+**Claude (ghostfolio-updater):** *[`create_activity` ×2, then `get_orders` to read both records back]*
+
+Both written and verified against the returned records:
+
+| | id | symbol | date | qty × price | fee | net |
+|---|---|---|---|---|---|---|
+| BUY | `…a41f` | XEQT.TO | 2026-08-28 | 14 × 34.12 | 0 | −477.68 CAD |
+| DIVIDEND | `…9c2e` | VFV.TO | 2026-08-15 | 1 × 48.60 | 0 | +48.60 CAD |
+
+Comments set to `Posted by Claude`. Assumptions on record: the dividend is dated by the data source's ex-date, not the payment date; it is stored as a lump sum because the notification gave no per-unit rate. Cash balances were not changed — Ghostfolio's MCP `create_activity` does not move cash; if you keep account cash in Ghostfolio, that is a separate balance update.
+
+---
+
+### Where it stops instead
+
+The same session, had the inputs been different:
+
+- **`quantity × price ≠ total`** — "14 × 34.12 is 477.68 but the email says 479.63. That is a $1.95 difference; I won't record it as a fee. Was there a commission line, or is the quantity different?"
+- **Unheld, ambiguous ticker** — "`ABCD` is not held and resolves to both a US listing and `ABCD.TO`. Which one?"
+- **Already recorded** — "There is already a VFV.TO dividend on 2026-08-15 for 48.60 in TFSA (id `…9c2e`). Not creating a second one."
+- **A US-listed payer in a non-treaty account** — the preflight would show gross `net / 0.85` with the 15% withholding as `fee`, and ask you to confirm the account's treaty status rather than infer it from the name.
+
+What you do not get: a recommendation about XEQT, a view on whether the dividend is sustainable, or any write you did not say yes to.
+
 ## Setup — Claude Code
 
 Point Claude Code at the MCP server, then copy the two definitions into the project where you will do the entry work.
