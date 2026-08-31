@@ -1,0 +1,25 @@
+{
+ "symbol": "ACT.TO",
+ "currency": "CAD",
+ "fetched": "2026-08-30",
+ "source": "https://query1.finance.yahoo.com/v8/finance/chart/ACT.TO?range=5y&interval=1mo&events=div",
+ "months": [
+  {
+   "t": "2026-06-01",
+   "close": 22.399999618530273
+  },
+  {
+   "t": "2026-07-01",
+   "close": 19.25
+  },
+  {
+   "t": "2026-08-01",
+   "close": 19.690000534057617
+  },
+  {
+   "t": "2026-08-28",
+   "close": 19.690000534057617
+  }
+ ],
+ "dividends": []
+}

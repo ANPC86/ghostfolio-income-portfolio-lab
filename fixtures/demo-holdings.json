@@ -1,0 +1,205 @@
+[
+ {
+  "symbol": "QDAY.NE",
+  "name": "Hamilton Enhanced Technology DayMAX ETF",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.1073
+ },
+ {
+  "symbol": "HYLD.TO",
+  "name": "Hamilton Enhanced U.S. Covered Call ETF",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.1023
+ },
+ {
+  "symbol": "HDIV.TO",
+  "name": "Hamilton Enhanced Canadian Covered Call ETF",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.0612
+ },
+ {
+  "symbol": "QQCL.TO",
+  "name": "Global X Enhanced NASDAQ-100 Covered Call ETF",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.0602
+ },
+ {
+  "symbol": "HHIS.TO",
+  "name": "Harvest Diversified High Income Shares ETF - Class A Units",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.0552
+ },
+ {
+  "symbol": "BANK.TO",
+  "name": "Evolve Canadian Banks and Lifecos Enhanced Yield Index Fund",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.0542
+ },
+ {
+  "symbol": "YGOG.NE",
+  "name": "Alphabet (GOOGL) Yield Shares Purpose ETF",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.0481
+ },
+ {
+  "symbol": "ENCL.TO",
+  "name": "Global X Enhanced Canadian Oil and Gas Equity Covered Call ETF CAD",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.0431
+ },
+ {
+  "symbol": "YAMZ.NE",
+  "name": "Amazon (AMZN) Yield Shares Purpose ETF",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.0381
+ },
+ {
+  "symbol": "HPYE.TO",
+  "name": "Harvest Premium Yield Enhanced ETF Class A",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.0371
+ },
+ {
+  "symbol": "YNVD.NE",
+  "name": "NVIDIA (NVDA) Yield Shares Purpose ETF",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.0341
+ },
+ {
+  "symbol": "JPHE.TO",
+  "name": "Harvest JPHE Enhanced High Income Shares ETF Class A CAD",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.0331
+ },
+ {
+  "symbol": "MSHE.TO",
+  "name": "Harvest Microsoft Enhanced High Income Shares ETF - Class A Units",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.0321
+ },
+ {
+  "symbol": "INTY.TO",
+  "name": "Evolve International Equity UltraYield ETF CAD",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.0311
+ },
+ {
+  "symbol": "HEQL.TO",
+  "name": "Global X Enhanced All-Equity Asset Allocation ETF CAD",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.0301
+ },
+ {
+  "symbol": "PAYG.TO",
+  "name": "Brompton Global Equity HighPay ETF",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.0291
+ },
+ {
+  "symbol": "ACT.TO",
+  "name": "Aduro Clean Technologies Inc.",
+  "currency": "CAD",
+  "subclass": "STOCK",
+  "weight": 0.0281
+ },
+ {
+  "symbol": "BCCL.NE",
+  "name": "Global X Enhanced Bitcoin Covered Call ETF",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.0281
+ },
+ {
+  "symbol": "METE.TO",
+  "name": "Harvest Meta Enhanced High Income Shares ETF - Class A Units",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.0271
+ },
+ {
+  "symbol": "YTSL.NE",
+  "name": "Tesla (TSLA) Yield Shares Purpose ETF",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.0271
+ },
+ {
+  "symbol": "NFLY.TO",
+  "name": "Harvest Netflix Enhanced High Income Shares ETF - Class A Units",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.0221
+ },
+ {
+  "symbol": "QQQL.TO",
+  "name": "Global X Enhanced Nasdaq-100 Index ETF",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.0201
+ },
+ {
+  "symbol": "BIGY.TO",
+  "name": "Evolve US Equity UltraYield ETF",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.015
+ },
+ {
+  "symbol": "HBTE.NE",
+  "name": "Harvest Bitcoin Leaders Enhanced Income ETF - Class A Units",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.012
+ },
+ {
+  "symbol": "MSTE.TO",
+  "name": "Harvest MicroStrategy Enhanced High Income Shares ETF - Class A Units",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.008
+ },
+ {
+  "symbol": "CLSA.TO",
+  "name": "Brompton Split Corp. Enhanced Equity Income ETF",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.006
+ },
+ {
+  "symbol": "LETH.TO",
+  "name": "Evolve Levered Ether ETF CAD",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.006
+ },
+ {
+  "symbol": "CNYE.TO",
+  "name": "Harvest Coinbase Enhanced High Income Shares ETF - Class A Units",
+  "currency": "CAD",
+  "subclass": "ETF",
+  "weight": 0.002
+ },
+ {
+  "symbol": "QNC.V",
+  "name": "Quantum eMotion Corp.",
+  "currency": "CAD",
+  "subclass": "STOCK",
+  "weight": 0.002
+ }
+]

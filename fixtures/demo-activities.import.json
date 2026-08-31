@@ -1,0 +1,3748 @@
+{
+ "meta": {
+  "date": "2026-08-30",
+  "version": "synthetic-demo"
+ },
+ "activities": [
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2023-12-19T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 70.88403018,
+   "symbol": "QNC.V",
+   "type": "BUY",
+   "unitPrice": 4.60013004
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2023-12-19T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 139.24442382,
+   "symbol": "INTY.TO",
+   "type": "BUY",
+   "unitPrice": 23.99527187
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2023-12-19T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 108.85951267,
+   "symbol": "PAYG.TO",
+   "type": "BUY",
+   "unitPrice": 27.01992112
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2023-12-19T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 254.4142805,
+   "symbol": "JPHE.TO",
+   "type": "BUY",
+   "unitPrice": 12.07088514
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2023-12-19T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 254.50728225,
+   "symbol": "HDIV.TO",
+   "type": "BUY",
+   "unitPrice": 21.34043498
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2023-12-19T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 346.30746459,
+   "symbol": "METE.TO",
+   "type": "BUY",
+   "unitPrice": 9.8389532
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2023-12-19T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 35.00904108,
+   "symbol": "CLSA.TO",
+   "type": "BUY",
+   "unitPrice": 15.41012999
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2023-12-19T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 296.65334934,
+   "symbol": "HPYE.TO",
+   "type": "BUY",
+   "unitPrice": 11.59836826
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2023-12-19T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 76.52662974,
+   "symbol": "HEQL.TO",
+   "type": "BUY",
+   "unitPrice": 33.92872552
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2023-12-19T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 48.92367906,
+   "symbol": "TXF.TO",
+   "type": "BUY",
+   "unitPrice": 14.71986173
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2023-12-28T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 110.1997326,
+   "symbol": "YNVD.NE",
+   "type": "BUY",
+   "unitPrice": 39.24661119
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-01-01T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 84.1376226,
+   "symbol": "YAMZ.NE",
+   "type": "BUY",
+   "unitPrice": 52.40957989
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-01-02T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 48.92367906,
+   "symbol": "TXF.TO",
+   "type": "SELL",
+   "unitPrice": 20.44
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-01-03T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 142.63206073,
+   "symbol": "ACT.TO",
+   "type": "BUY",
+   "unitPrice": 11.80916177
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-01-04T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 219.67120181,
+   "symbol": "HTAE.TO",
+   "type": "BUY",
+   "unitPrice": 15.68
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-01-08T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 52.88207298,
+   "symbol": "BKCL.TO",
+   "type": "BUY",
+   "unitPrice": 18.7990854
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-01-09T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 56.91586351,
+   "symbol": "MSFY.NE",
+   "type": "BUY",
+   "unitPrice": 20.94
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-01-10T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 473.24148067,
+   "symbol": "BANK.TO",
+   "type": "BUY",
+   "unitPrice": 8.45406444
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-01-11T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 36.57644477,
+   "symbol": "YNVD.NE",
+   "type": "SELL",
+   "unitPrice": 27.34
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-01-12T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 30.71253071,
+   "symbol": "MFC.TO",
+   "type": "BUY",
+   "unitPrice": 22.82029717
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-01-15T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 6.1626864,
+   "symbol": "YAMZ.NE",
+   "type": "BUY",
+   "unitPrice": 39.49
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-01-17T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 40.71428571,
+   "symbol": "ACT.TO",
+   "type": "BUY",
+   "unitPrice": 1.5
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-01-19T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 126.26262626,
+   "symbol": "AQN.TO",
+   "type": "BUY",
+   "unitPrice": 11.60949868
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-01-22T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 52.88207298,
+   "symbol": "BKCL.TO",
+   "type": "SELL",
+   "unitPrice": 18.91
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-01-24T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 456.49263722,
+   "symbol": "BANK.TO",
+   "type": "BUY",
+   "unitPrice": 7.47
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-01-25T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 180.30122324,
+   "symbol": "YTSL.NE",
+   "type": "BUY",
+   "unitPrice": 22.11589695
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-01-26T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 30.71253071,
+   "symbol": "MFC.TO",
+   "type": "SELL",
+   "unitPrice": 32.56
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-01-30T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 97.38556898,
+   "symbol": "USCL.TO",
+   "type": "BUY",
+   "unitPrice": 21.12
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-02-02T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 126.26262626,
+   "symbol": "AQN.TO",
+   "type": "SELL",
+   "unitPrice": 7.92
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-02-06T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 6.73495859,
+   "symbol": "YAMZ.NE",
+   "type": "BUY",
+   "unitPrice": 39.34
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-02-07T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 85.34733788,
+   "symbol": "YGOG.NE",
+   "type": "BUY",
+   "unitPrice": 39.5266338
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-02-08T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 8.54181977,
+   "symbol": "YTSL.NE",
+   "type": "BUY",
+   "unitPrice": 18.41
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-02-13T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 13.1424344,
+   "symbol": "MSFY.NE",
+   "type": "BUY",
+   "unitPrice": 20.89
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-02-15T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 11.69641752,
+   "symbol": "APLY.NE",
+   "type": "BUY",
+   "unitPrice": 24.74
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-02-16T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 23.32089552,
+   "symbol": "GWO.TO",
+   "type": "BUY",
+   "unitPrice": 31.54100772
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-02-19T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 45.58085521,
+   "symbol": "USCL.TO",
+   "type": "BUY",
+   "unitPrice": 21.15
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-02-21T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 9.51774968,
+   "symbol": "YGOG.NE",
+   "type": "BUY",
+   "unitPrice": 27.94
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-02-26T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 12.42147344,
+   "symbol": "ACT.TO",
+   "type": "BUY",
+   "unitPrice": 1.36
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-02-28T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 4.78788755,
+   "symbol": "YTSL.NE",
+   "type": "BUY",
+   "unitPrice": 16.44
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-03-01T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 23.32089552,
+   "symbol": "GWO.TO",
+   "type": "SELL",
+   "unitPrice": 42.88
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-03-05T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 10.97808584,
+   "symbol": "YGOG.NE",
+   "type": "BUY",
+   "unitPrice": 26.45
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-03-08T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 6.13482276,
+   "symbol": "YAMZ.NE",
+   "type": "BUY",
+   "unitPrice": 39.49
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-03-12T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 11.65814725,
+   "symbol": "MSFY.NE",
+   "type": "BUY",
+   "unitPrice": 20.65
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-03-14T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 12.63723245,
+   "symbol": "APLY.NE",
+   "type": "BUY",
+   "unitPrice": 23.02
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-03-18T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 38.51137024,
+   "symbol": "YTSL.NE",
+   "type": "BUY",
+   "unitPrice": 16.58
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-03-21T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 2.33986139,
+   "symbol": "BCE.TO",
+   "type": "BUY",
+   "unitPrice": 48.92
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-03-22T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 185.54264644,
+   "symbol": "ENCL.TO",
+   "type": "BUY",
+   "unitPrice": 20.33531582
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-03-25T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 26.1992293,
+   "symbol": "USCL.TO",
+   "type": "BUY",
+   "unitPrice": 21.1
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-03-27T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 9.26582146,
+   "symbol": "BANK.TO",
+   "type": "BUY",
+   "unitPrice": 7.47
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-04-01T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 16.635173,
+   "symbol": "YTSL.NE",
+   "type": "BUY",
+   "unitPrice": 14.9
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-04-03T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 8.5119319,
+   "symbol": "ACT.TO",
+   "type": "BUY",
+   "unitPrice": 1.29
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-04-05T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 20.21563342,
+   "symbol": "ENCL.TO",
+   "type": "BUY",
+   "unitPrice": 21.2
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-04-09T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 23.07049675,
+   "symbol": "BANK.TO",
+   "type": "BUY",
+   "unitPrice": 7.41
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-04-12T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 4.96432325,
+   "symbol": "BANK.TO",
+   "type": "BUY",
+   "unitPrice": 7.16
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-04-15T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 638.22158928,
+   "symbol": "HYLD.TO",
+   "type": "BUY",
+   "unitPrice": 14.86444978
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-04-16T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 15.09640366,
+   "symbol": "BANK.TO",
+   "type": "BUY",
+   "unitPrice": 7.1
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-04-18T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 49.30467762,
+   "symbol": "ACT.TO",
+   "type": "BUY",
+   "unitPrice": 1.33
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-04-22T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 24.3557612,
+   "symbol": "BANK.TO",
+   "type": "BUY",
+   "unitPrice": 7.41
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-04-25T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 15.08751834,
+   "symbol": "USCL.TO",
+   "type": "BUY",
+   "unitPrice": 21.49
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-04-29T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 7.04266855,
+   "symbol": "HYLD.TO",
+   "type": "BUY",
+   "unitPrice": 13.44
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-04-30T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 19.10949742,
+   "symbol": "BAM.TO",
+   "type": "BUY",
+   "unitPrice": 43.29086698
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-05-01T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 3.91434492,
+   "symbol": "USCL.TO",
+   "type": "BUY",
+   "unitPrice": 21.5
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-05-06T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 21.25306854,
+   "symbol": "HYLD.TO",
+   "type": "BUY",
+   "unitPrice": 13.17
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-05-07T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 23.07337333,
+   "symbol": "BEPC.TO",
+   "type": "BUY",
+   "unitPrice": 39.59075546
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-05-08T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 25.33492506,
+   "symbol": "BANK.TO",
+   "type": "BUY",
+   "unitPrice": 7.18
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-05-10T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 52.87181438,
+   "symbol": "BANK.TO",
+   "type": "BUY",
+   "unitPrice": 7.17
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-05-14T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 19.10949742,
+   "symbol": "BAM.TO",
+   "type": "SELL",
+   "unitPrice": 52.33
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-05-17T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 36.73094582,
+   "symbol": "EQCL.TO",
+   "type": "BUY",
+   "unitPrice": 21.78
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-05-21T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 23.07337333,
+   "symbol": "BEPC.TO",
+   "type": "SELL",
+   "unitPrice": 43.34
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-05-23T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 119.49161371,
+   "symbol": "HYLD.TO",
+   "type": "BUY",
+   "unitPrice": 13.24
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-05-27T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 77.04395402,
+   "symbol": "EQCL.TO",
+   "type": "BUY",
+   "unitPrice": 21.67
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-05-30T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 43.28150866,
+   "symbol": "USCL.TO",
+   "type": "BUY",
+   "unitPrice": 21.66
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-05-31T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 223.55327498,
+   "symbol": "QQCL.TO",
+   "type": "BUY",
+   "unitPrice": 24.905292
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-06-03T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 5.71929472,
+   "symbol": "BANK.TO",
+   "type": "BUY",
+   "unitPrice": 6.89
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-06-05T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 14.28571429,
+   "symbol": "BTCY-B.TO",
+   "type": "BUY",
+   "unitPrice": 7
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-06-10T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 9.95385821,
+   "symbol": "YTSL.NE",
+   "type": "BUY",
+   "unitPrice": 20.27
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-06-12T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 113.77489984,
+   "symbol": "EQCL.TO",
+   "type": "SELL",
+   "unitPrice": 21.74
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-06-14T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 97.83071034,
+   "symbol": "QQCL.TO",
+   "type": "BUY",
+   "unitPrice": 23.51
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-06-18T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 45.03367003,
+   "symbol": "BANK.TO",
+   "type": "BUY",
+   "unitPrice": 7.04
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-06-21T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 5.16803585,
+   "symbol": "ENCL.TO",
+   "type": "BUY",
+   "unitPrice": 19.5
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-06-25T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 2.37988993,
+   "symbol": "BTCY-B.TO",
+   "type": "BUY",
+   "unitPrice": 7.47
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-06-27T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 93.56315754,
+   "symbol": "QQCL.TO",
+   "type": "BUY",
+   "unitPrice": 22.97
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-07-01T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 7.38773064,
+   "symbol": "YAMZ.NE",
+   "type": "BUY",
+   "unitPrice": 41.41
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-07-03T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 22.79090968,
+   "symbol": "RY.TO",
+   "type": "BUY",
+   "unitPrice": 122.81669866
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-07-04T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 8.44493146,
+   "symbol": "YGOG.NE",
+   "type": "BUY",
+   "unitPrice": 35.48
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-07-05T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 6.58978583,
+   "symbol": "RY.TO",
+   "type": "BUY",
+   "unitPrice": 122.8247673
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-07-08T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 5.89134099,
+   "symbol": "APLY.NE",
+   "type": "BUY",
+   "unitPrice": 30.23
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-07-10T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 8.79530021,
+   "symbol": "MSFY.NE",
+   "type": "BUY",
+   "unitPrice": 22.24
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-07-12T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 23.56974502,
+   "symbol": "BANK.TO",
+   "type": "BUY",
+   "unitPrice": 7.18
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-07-17T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 22.79090968,
+   "symbol": "RY.TO",
+   "type": "SELL",
+   "unitPrice": 153.57
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-07-19T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 6.58978583,
+   "symbol": "RY.TO",
+   "type": "SELL",
+   "unitPrice": 151.75
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-07-23T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 70.21015175,
+   "symbol": "USCL.TO",
+   "type": "BUY",
+   "unitPrice": 21.61
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-07-26T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 26.38389879,
+   "symbol": "QQCL.TO",
+   "type": "BUY",
+   "unitPrice": 22.02
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-07-30T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 9.40937848,
+   "symbol": "YAMZ.NE",
+   "type": "BUY",
+   "unitPrice": 40.98
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-08-01T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 166.58852946,
+   "symbol": "BANK.TO",
+   "type": "BUY",
+   "unitPrice": 7.11
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-08-05T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 3.52003143,
+   "symbol": "YAMZ.NE",
+   "type": "BUY",
+   "unitPrice": 35.58
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-08-08T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 5.13631729,
+   "symbol": "USCL.TO",
+   "type": "BUY",
+   "unitPrice": 20.78
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-08-12T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 9.24351757,
+   "symbol": "HTAE.TO",
+   "type": "BUY",
+   "unitPrice": 15.57
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-08-14T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 8.49745992,
+   "symbol": "HYLD.TO",
+   "type": "BUY",
+   "unitPrice": 12.98
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-08-16T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 7.13014113,
+   "symbol": "QQCL.TO",
+   "type": "BUY",
+   "unitPrice": 21.16
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-08-21T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 8.35126991,
+   "symbol": "BANK.TO",
+   "type": "BUY",
+   "unitPrice": 6.9
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-08-23T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 9.17576333,
+   "symbol": "BTCY-B.TO",
+   "type": "BUY",
+   "unitPrice": 6.86
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-09-03T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 17.63826607,
+   "symbol": "QQCL.TO",
+   "type": "BUY",
+   "unitPrice": 22.3
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-09-04T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 4.79095918,
+   "symbol": "ENCL.TO",
+   "type": "BUY",
+   "unitPrice": 20.67
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-09-06T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 4.81331773,
+   "symbol": "QQCL.TO",
+   "type": "BUY",
+   "unitPrice": 22.12
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-09-09T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 18.41834106,
+   "symbol": "BTCY-B.TO",
+   "type": "BUY",
+   "unitPrice": 6.47
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-09-11T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 14.73429952,
+   "symbol": "ENCL.TO",
+   "type": "BUY",
+   "unitPrice": 18.4
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-09-12T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 5.53306343,
+   "symbol": "YGOG.NE",
+   "type": "BUY",
+   "unitPrice": 28.5
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-09-16T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 25.94594595,
+   "symbol": "RMAX.TO",
+   "type": "BUY",
+   "unitPrice": 18.5
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-09-17T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 40.6647642,
+   "symbol": "RMAX.TO",
+   "type": "BUY",
+   "unitPrice": 18.81
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-09-18T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 4.19463087,
+   "symbol": "ACT.TO",
+   "type": "BUY",
+   "unitPrice": 5.96
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-09-20T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1.18877019,
+   "symbol": "ACT.TO",
+   "type": "BUY",
+   "unitPrice": 6.08
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-09-23T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 17.39334822,
+   "symbol": "RMAX.TO",
+   "type": "BUY",
+   "unitPrice": 18.09
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-09-25T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 4.2662116,
+   "symbol": "ACT.TO",
+   "type": "BUY",
+   "unitPrice": 5.86
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-09-26T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1.23553671,
+   "symbol": "ACT.TO",
+   "type": "BUY",
+   "unitPrice": 5.93
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-09-27T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 320.64224642,
+   "symbol": "MSHE.TO",
+   "type": "BUY",
+   "unitPrice": 9.75514397
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-09-27T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 4.28816467,
+   "symbol": "ACT.TO",
+   "type": "BUY",
+   "unitPrice": 5.83
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-10-01T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1.26935771,
+   "symbol": "ACT.TO",
+   "type": "BUY",
+   "unitPrice": 5.85
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-10-02T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 20.5213533,
+   "symbol": "RMAX.TO",
+   "type": "BUY",
+   "unitPrice": 18.03
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-10-04T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 20.1477137,
+   "symbol": "BTCY-B.TO",
+   "type": "BUY",
+   "unitPrice": 6.82
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-10-07T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 19.23975697,
+   "symbol": "RMAX.TO",
+   "type": "BUY",
+   "unitPrice": 18.34
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-10-09T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 11.4109066,
+   "symbol": "ACT.TO",
+   "type": "BUY",
+   "unitPrice": 6.44
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-10-10T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 90.51174537,
+   "symbol": "MSFY.NE",
+   "type": "SELL",
+   "unitPrice": 20.67
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-10-11T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 238.85618167,
+   "symbol": "MSHE.TO",
+   "type": "BUY",
+   "unitPrice": 11.89
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-10-15T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 37.43635819,
+   "symbol": "BANK.TO",
+   "type": "BUY",
+   "unitPrice": 7.95
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-10-16T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 14.69583049,
+   "symbol": "ACT.TO",
+   "type": "BUY",
+   "unitPrice": 6.27
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-10-18T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 4.98223248,
+   "symbol": "BCE.TO",
+   "type": "BUY",
+   "unitPrice": 40.44
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-10-21T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 4.80090569,
+   "symbol": "BCE.TO",
+   "type": "BUY",
+   "unitPrice": 39.79
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-10-23T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 20.81858094,
+   "symbol": "ACT.TO",
+   "type": "BUY",
+   "unitPrice": 6.14
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-10-24T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 10.44202678,
+   "symbol": "ENCL.TO",
+   "type": "BUY",
+   "unitPrice": 19.84
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-10-25T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 9.00900901,
+   "symbol": "YMET.NE",
+   "type": "BUY",
+   "unitPrice": 21.09
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-10-29T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 10.13824885,
+   "symbol": "LLHE.TO",
+   "type": "BUY",
+   "unitPrice": 10.85
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-10-30T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 21.55576382,
+   "symbol": "LLHE.TO",
+   "type": "BUY",
+   "unitPrice": 10.67
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-11-01T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1.79684635,
+   "symbol": "ACT.TO",
+   "type": "BUY",
+   "unitPrice": 8.1
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-11-04T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 3.01932367,
+   "symbol": "ACT.TO",
+   "type": "BUY",
+   "unitPrice": 8.28
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-11-05T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 12.12299956,
+   "symbol": "BCE.TO",
+   "type": "SELL",
+   "unitPrice": 38.11
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-11-07T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 98.27455023,
+   "symbol": "BTCY-B.TO",
+   "type": "BUY",
+   "unitPrice": 10.06
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-11-08T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 119.56459394,
+   "symbol": "ACT.TO",
+   "type": "BUY",
+   "unitPrice": 9.07
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-11-12T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 57.21671575,
+   "symbol": "QQQL.TO",
+   "type": "BUY",
+   "unitPrice": 29.01934298
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-11-12T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 64.41223833,
+   "symbol": "LLHE.TO",
+   "type": "BUY",
+   "unitPrice": 10.35
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-11-13T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 20.32838155,
+   "symbol": "NVHE.TO",
+   "type": "BUY",
+   "unitPrice": 12.79
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-11-15T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 162.68197254,
+   "symbol": "BTCY-B.TO",
+   "type": "SELL",
+   "unitPrice": 9.95
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-11-18T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 96.91160809,
+   "symbol": "BTCX-B.TO",
+   "type": "BUY",
+   "unitPrice": 18.78
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-11-19T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 17.09401709,
+   "symbol": "ENB.TO",
+   "type": "BUY",
+   "unitPrice": 51.37888635
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-11-19T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 3.61445783,
+   "symbol": "BANK.TO",
+   "type": "BUY",
+   "unitPrice": 8.3
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-11-21T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 17.42808799,
+   "symbol": "BTCX-B.TO",
+   "type": "BUY",
+   "unitPrice": 19.7
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-11-22T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 7.73615635,
+   "symbol": "USSL.TO",
+   "type": "BUY",
+   "unitPrice": 24.56
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-11-26T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 7.70791075,
+   "symbol": "QQQL.TO",
+   "type": "BUY",
+   "unitPrice": 24.65
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-11-27T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 20.32838155,
+   "symbol": "NVHE.TO",
+   "type": "SELL",
+   "unitPrice": 12.8
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-11-29T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 6.95856761,
+   "symbol": "ENCL.TO",
+   "type": "BUY",
+   "unitPrice": 19.29
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-12-02T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 12.65822785,
+   "symbol": "ATD.TO",
+   "type": "BUY",
+   "unitPrice": 60.55031808
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-12-02T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 7.14878238,
+   "symbol": "YGOG.NE",
+   "type": "BUY",
+   "unitPrice": 35.71
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-12-03T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 17.09401709,
+   "symbol": "ENB.TO",
+   "type": "SELL",
+   "unitPrice": 58.5
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-12-05T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 133.45987778,
+   "symbol": "ENCL.TO",
+   "type": "BUY",
+   "unitPrice": 18.18
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-12-06T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 184.56078083,
+   "symbol": "BANK.TO",
+   "type": "BUY",
+   "unitPrice": 8.05
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-12-10T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 12.36263736,
+   "symbol": "ENCL.TO",
+   "type": "BUY",
+   "unitPrice": 18.48
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-12-11T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 9.00900901,
+   "symbol": "YMET.NE",
+   "type": "SELL",
+   "unitPrice": 20.5
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-12-12T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 96.106251,
+   "symbol": "LLHE.TO",
+   "type": "SELL",
+   "unitPrice": 9.9
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-12-16T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 12.65822785,
+   "symbol": "ATD.TO",
+   "type": "SELL",
+   "unitPrice": 79
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-12-17T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 480.11746292,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 11.54776825
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-12-17T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 138.11234878,
+   "symbol": "QQCL.TO",
+   "type": "BUY",
+   "unitPrice": 25.3
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-12-19T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 10.28277635,
+   "symbol": "AMHE.TO",
+   "type": "BUY",
+   "unitPrice": 15.56
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-12-20T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 2.74725275,
+   "symbol": "ACT.TO",
+   "type": "BUY",
+   "unitPrice": 9.1
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-12-24T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 39.34960832,
+   "symbol": "YAMZ.NE",
+   "type": "SELL",
+   "unitPrice": 48.72
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-12-25T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 183.54700855,
+   "symbol": "AMHE.TO",
+   "type": "BUY",
+   "unitPrice": 15.6
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-12-26T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 19.51981261,
+   "symbol": "CPX.TO",
+   "type": "BUY",
+   "unitPrice": 42.72014676
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-12-26T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 9.71876755,
+   "symbol": "ENCL.TO",
+   "type": "BUY",
+   "unitPrice": 19.36
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-12-30T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 123.76516864,
+   "symbol": "RMAX.TO",
+   "type": "SELL",
+   "unitPrice": 16.54
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2024-12-31T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 48.36065574,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 12.2
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-01-02T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 50.18578391,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 12.19
+  },
+  {
+   "currency": "USD",
+   "dataSource": "YAHOO",
+   "date": "2025-01-03T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 29.89771833,
+   "symbol": "MSTY",
+   "type": "BUY",
+   "unitPrice": 12.71
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-01-07T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 61.25591657,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 12.43
+  },
+  {
+   "currency": "USD",
+   "dataSource": "YAHOO",
+   "date": "2025-01-08T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 52.52290618,
+   "symbol": "MSTY",
+   "type": "BUY",
+   "unitPrice": 13.77
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-01-09T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 19.51981261,
+   "symbol": "CPX.TO",
+   "type": "SELL",
+   "unitPrice": 51.23
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-01-13T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 12.19512195,
+   "symbol": "TD.TO",
+   "type": "BUY",
+   "unitPrice": 81.738437
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-01-13T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 16.50909091,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 12.5
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-01-14T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 50.99125364,
+   "symbol": "USCL.TO",
+   "type": "BUY",
+   "unitPrice": 24.5
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-01-16T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 27.24790661,
+   "symbol": "QQCL.TO",
+   "type": "BUY",
+   "unitPrice": 25.57
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-01-17T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 144.49760766,
+   "symbol": "NVHE.TO",
+   "type": "BUY",
+   "unitPrice": 10.45
+  },
+  {
+   "currency": "USD",
+   "dataSource": "YAHOO",
+   "date": "2025-01-20T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 37.55368379,
+   "symbol": "MSTY",
+   "type": "BUY",
+   "unitPrice": 12.26
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-01-22T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1.74723355,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 12.41
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-01-23T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 12.2962963,
+   "symbol": "NVHE.TO",
+   "type": "BUY",
+   "unitPrice": 10
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-01-27T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 12.19512195,
+   "symbol": "TD.TO",
+   "type": "SELL",
+   "unitPrice": 82
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-01-28T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 9.62280136,
+   "symbol": "BANK.TO",
+   "type": "BUY",
+   "unitPrice": 7.83
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-01-30T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 44.24681599,
+   "symbol": "NVHE.TO",
+   "type": "BUY",
+   "unitPrice": 10.12
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-01-31T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 677.13689592,
+   "symbol": "MSTE.TO",
+   "type": "BUY",
+   "unitPrice": 2.08265036
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-01-31T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 33.81642512,
+   "symbol": "MSHE.TO",
+   "type": "BUY",
+   "unitPrice": 11.61
+  },
+  {
+   "currency": "USD",
+   "dataSource": "YAHOO",
+   "date": "2025-02-03T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 52.85678329,
+   "symbol": "MSTY",
+   "type": "BUY",
+   "unitPrice": 12.33
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-02-05T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 30.81388199,
+   "symbol": "ENCL.TO",
+   "type": "BUY",
+   "unitPrice": 18.65
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-02-06T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 6.56789092,
+   "symbol": "BTCX-B.TO",
+   "type": "BUY",
+   "unitPrice": 20.77
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-02-10T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 330.82756515,
+   "symbol": "NFLY.TO",
+   "type": "BUY",
+   "unitPrice": 8.01974769
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-02-10T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 150.88727735,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 13.01
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-02-11T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1.88394876,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 13.27
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-02-13T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 51.72413793,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 13.28
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-02-14T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 82.36151603,
+   "symbol": "MSTE.TO",
+   "type": "BUY",
+   "unitPrice": 13.72
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-02-17T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 5.41410594,
+   "symbol": "AMHE.TO",
+   "type": "BUY",
+   "unitPrice": 10.72
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-02-19T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 14.68463612,
+   "symbol": "NVHE.TO",
+   "type": "BUY",
+   "unitPrice": 8.75
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-02-20T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 31.10683526,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 10.2
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-02-24T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 22.18278616,
+   "symbol": "NFLY.TO",
+   "type": "BUY",
+   "unitPrice": 11.27
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-02-25T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 32.16001398,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 10.7
+  },
+  {
+   "currency": "USD",
+   "dataSource": "YAHOO",
+   "date": "2025-02-26T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 172.83109159,
+   "symbol": "MSTY",
+   "type": "SELL",
+   "unitPrice": 11.72
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-02-28T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 133.316417,
+   "symbol": "MSTE.TO",
+   "type": "BUY",
+   "unitPrice": 16.82
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-03-03T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1.84094256,
+   "symbol": "AMHE.TO",
+   "type": "BUY",
+   "unitPrice": 13.58
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-03-05T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 7.70791075,
+   "symbol": "QQQL.TO",
+   "type": "SELL",
+   "unitPrice": 23.15
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-03-06T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 7.73615635,
+   "symbol": "USSL.TO",
+   "type": "SELL",
+   "unitPrice": 23.45
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-03-10T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 10.28551772,
+   "symbol": "USCL.TO",
+   "type": "BUY",
+   "unitPrice": 22.8
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-03-11T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 13.46762447,
+   "symbol": "QQCL.TO",
+   "type": "BUY",
+   "unitPrice": 23.53
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-03-12T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 78.43010876,
+   "symbol": "YTSL.NE",
+   "type": "SELL",
+   "unitPrice": 17.3
+  },
+  {
+   "currency": "USD",
+   "dataSource": "YAHOO",
+   "date": "2025-03-14T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1123.43966713,
+   "symbol": "TSLY",
+   "type": "BUY",
+   "unitPrice": 7.21
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-03-17T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 18.77394636,
+   "symbol": "AMHE.TO",
+   "type": "BUY",
+   "unitPrice": 11.6
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-03-19T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 9.06862745,
+   "symbol": "MSTE.TO",
+   "type": "BUY",
+   "unitPrice": 13.6
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-03-20T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 9.65427267,
+   "symbol": "NFLY.TO",
+   "type": "BUY",
+   "unitPrice": 10.95
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-03-24T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 10.07534797,
+   "symbol": "NFLY.TO",
+   "type": "BUY",
+   "unitPrice": 10.71
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-03-25T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 59.68822968,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 9.53
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-03-26T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 28.9288129,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 9.86
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-03-28T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 10.18968048,
+   "symbol": "QQCL.TO",
+   "type": "BUY",
+   "unitPrice": 20.84
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-03-31T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 17.14734437,
+   "symbol": "USCL.TO",
+   "type": "BUY",
+   "unitPrice": 20.4
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-04-02T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 2.84738041,
+   "symbol": "NVHE.TO",
+   "type": "BUY",
+   "unitPrice": 8.78
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-04-03T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 3.03861789,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 9.84
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-04-07T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 120.907587,
+   "symbol": "BTCX-B.TO",
+   "type": "SELL",
+   "unitPrice": 19.6
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-04-08T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 147.08178801,
+   "symbol": "MSTE.TO",
+   "type": "BUY",
+   "unitPrice": 17.44
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-04-09T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 6.77231478,
+   "symbol": "GSY.TO",
+   "type": "BUY",
+   "unitPrice": 111.46674719
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-04-09T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 2.36686391,
+   "symbol": "NVHE.TO",
+   "type": "BUY",
+   "unitPrice": 8.45
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-04-11T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 4.80468287,
+   "symbol": "AMHE.TO",
+   "type": "BUY",
+   "unitPrice": 11.59
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-04-14T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 82.32632233,
+   "symbol": "HBTE.NE",
+   "type": "BUY",
+   "unitPrice": 16.8685419
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-04-14T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 9.78116711,
+   "symbol": "AMHE.TO",
+   "type": "BUY",
+   "unitPrice": 11.6
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-04-16T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 8.39188134,
+   "symbol": "ENCL.TO",
+   "type": "BUY",
+   "unitPrice": 17.08
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-04-17T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 8.39531215,
+   "symbol": "ENCL.TO",
+   "type": "BUY",
+   "unitPrice": 17.4
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-04-18T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 22.68518519,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 10.8
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-04-22T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 69.4151043,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 10.82
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-04-23T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 6.77231478,
+   "symbol": "GSY.TO",
+   "type": "SELL",
+   "unitPrice": 147.66
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-04-25T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 252.10280752,
+   "symbol": "BCCL.NE",
+   "type": "BUY",
+   "unitPrice": 14.74360958
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-04-25T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 23.98433676,
+   "symbol": "MSTE.TO",
+   "type": "BUY",
+   "unitPrice": 18.16
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-04-28T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 72.13765718,
+   "symbol": "HBTE.NE",
+   "type": "BUY",
+   "unitPrice": 15.11
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-04-30T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 74.04924427,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 11.72
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-05-01T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 9.85149243,
+   "symbol": "USCL.TO",
+   "type": "BUY",
+   "unitPrice": 22.67
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-05-02T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 8.96926923,
+   "symbol": "QQCL.TO",
+   "type": "BUY",
+   "unitPrice": 22.67
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-05-06T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 32.12061911,
+   "symbol": "HBTE.NE",
+   "type": "BUY",
+   "unitPrice": 15.4
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-05-07T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 3.38010204,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 11.76
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-05-09T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1.82149362,
+   "symbol": "BCCL.NE",
+   "type": "BUY",
+   "unitPrice": 21.96
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-05-12T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 5.27148129,
+   "symbol": "BCCL.NE",
+   "type": "BUY",
+   "unitPrice": 21.68
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-05-14T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 7.00019508,
+   "symbol": "AMHE.TO",
+   "type": "BUY",
+   "unitPrice": 12.94
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-05-15T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 13.14132657,
+   "symbol": "BCCL.NE",
+   "type": "BUY",
+   "unitPrice": 22.27
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-05-16T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 4.54543464,
+   "symbol": "QQCL.TO",
+   "type": "BUY",
+   "unitPrice": 22.61
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-05-20T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 4.57909869,
+   "symbol": "QQCL.TO",
+   "type": "BUY",
+   "unitPrice": 22.66
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-05-21T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 6.02105984,
+   "symbol": "USCL.TO",
+   "type": "BUY",
+   "unitPrice": 21.41
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-05-23T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 7.05417816,
+   "symbol": "AMHE.TO",
+   "type": "BUY",
+   "unitPrice": 13.13
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-05-26T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 2.93176462,
+   "symbol": "BCCL.NE",
+   "type": "BUY",
+   "unitPrice": 22.69
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-05-27T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 33.66385114,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 11.67
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-05-29T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 30.22499096,
+   "symbol": "APLY.NE",
+   "type": "SELL",
+   "unitPrice": 24.4
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-05-30T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 95.22609454,
+   "symbol": "BCCL.NE",
+   "type": "BUY",
+   "unitPrice": 21.26
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-06-03T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 48.57948384,
+   "symbol": "MSTE.TO",
+   "type": "BUY",
+   "unitPrice": 15.9
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-06-04T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 3.31214022,
+   "symbol": "BCCL.NE",
+   "type": "BUY",
+   "unitPrice": 22.6
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-06-06T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 8.84904569,
+   "symbol": "AMHE.TO",
+   "type": "BUY",
+   "unitPrice": 13.3
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-06-09T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 373.55365784,
+   "symbol": "QDAY.NE",
+   "type": "BUY",
+   "unitPrice": 24.58638904
+  },
+  {
+   "currency": "USD",
+   "dataSource": "YAHOO",
+   "date": "2025-06-09T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 19.57799863,
+   "symbol": "TSLY",
+   "type": "BUY",
+   "unitPrice": 6.57
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-06-10T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 28.47148492,
+   "symbol": "T.TO",
+   "type": "BUY",
+   "unitPrice": 25.62021264
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-06-10T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 13.54297694,
+   "symbol": "AMHE.TO",
+   "type": "BUY",
+   "unitPrice": 13.5
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-06-12T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 3.1965812,
+   "symbol": "QQCL.TO",
+   "type": "BUY",
+   "unitPrice": 23.4
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-06-13T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 6.4890547,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 12.42
+  },
+  {
+   "currency": "USD",
+   "dataSource": "YAHOO",
+   "date": "2025-06-17T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 10.27570006,
+   "symbol": "TSLY",
+   "type": "BUY",
+   "unitPrice": 6.87
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-06-18T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 10.46140805,
+   "symbol": "HBTE.NE",
+   "type": "BUY",
+   "unitPrice": 17.43
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-06-20T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 16.25910038,
+   "symbol": "BCCL.NE",
+   "type": "BUY",
+   "unitPrice": 24.17
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-06-23T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 9.4494659,
+   "symbol": "QDAY.NE",
+   "type": "BUY",
+   "unitPrice": 24.34
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-06-24T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 67.62849414,
+   "symbol": "T.TO",
+   "type": "BUY",
+   "unitPrice": 25.62088483
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-06-24T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 28.47148492,
+   "symbol": "T.TO",
+   "type": "SELL",
+   "unitPrice": 22.41
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-06-26T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 44.59495708,
+   "symbol": "NFLY.TO",
+   "type": "BUY",
+   "unitPrice": 14.08
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-06-27T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 42.32105599,
+   "symbol": "CNYE.TO",
+   "type": "BUY",
+   "unitPrice": 12.06439689
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-06-27T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 18.77934272,
+   "symbol": "QDAY.NE",
+   "type": "BUY",
+   "unitPrice": 24.14
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-07-01T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1.3072111,
+   "symbol": "BCCL.NE",
+   "type": "BUY",
+   "unitPrice": 24.01
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-07-02T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 3.37890625,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 12.8
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-07-03T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 27.16954475,
+   "symbol": "LETH.TO",
+   "type": "BUY",
+   "unitPrice": 21.46096309
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-07-03T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 105.82959641,
+   "symbol": "QDAY.NE",
+   "type": "BUY",
+   "unitPrice": 24.6
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-07-07T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 0.85873766,
+   "symbol": "BCCL.NE",
+   "type": "BUY",
+   "unitPrice": 23.29
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-07-08T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 67.62849414,
+   "symbol": "T.TO",
+   "type": "SELL",
+   "unitPrice": 22.18
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-07-10T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 31.69307756,
+   "symbol": "QQCL.TO",
+   "type": "BUY",
+   "unitPrice": 23.98
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-07-11T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 38.2916053,
+   "symbol": "CNYE.TO",
+   "type": "BUY",
+   "unitPrice": 13.58
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-07-15T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 13.49325337,
+   "symbol": "NFLY.TO",
+   "type": "BUY",
+   "unitPrice": 13.34
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-07-16T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 10.625,
+   "symbol": "MSTE.TO",
+   "type": "BUY",
+   "unitPrice": 16
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-07-17T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 0.87183958,
+   "symbol": "LETH.TO",
+   "type": "BUY",
+   "unitPrice": 45.88
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-07-21T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 44.98886414,
+   "symbol": "T.TO",
+   "type": "BUY",
+   "unitPrice": 25.61908022
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-07-21T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 16.39344262,
+   "symbol": "HBTE.NE",
+   "type": "BUY",
+   "unitPrice": 16.47
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-07-22T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1.54559505,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 12.94
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-07-24T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 7.17703349,
+   "symbol": "QDAY.NE",
+   "type": "BUY",
+   "unitPrice": 25.08
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-07-25T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 14.59854015,
+   "symbol": "CNYE.TO",
+   "type": "BUY",
+   "unitPrice": 13.7
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-07-29T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 6.22148486,
+   "symbol": "BCCL.NE",
+   "type": "BUY",
+   "unitPrice": 24.11
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-07-30T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 14.54545455,
+   "symbol": "BCCL.NE",
+   "type": "BUY",
+   "unitPrice": 24.75
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-07-31T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1.84539676,
+   "symbol": "LETH.TO",
+   "type": "BUY",
+   "unitPrice": 48.77
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-08-04T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 44.98886414,
+   "symbol": "T.TO",
+   "type": "SELL",
+   "unitPrice": 22.45
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-08-05T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 4.46179587,
+   "symbol": "LETH.TO",
+   "type": "BUY",
+   "unitPrice": 53.79
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-08-07T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 30.20408163,
+   "symbol": "BCCL.NE",
+   "type": "BUY",
+   "unitPrice": 24.5
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-08-08T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1.8637399,
+   "symbol": "LETH.TO",
+   "type": "BUY",
+   "unitPrice": 48.29
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-08-11T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 0.75642965,
+   "symbol": "MSTE.TO",
+   "type": "BUY",
+   "unitPrice": 13.22
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-08-13T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 3.41588386,
+   "symbol": "BCCL.NE",
+   "type": "BUY",
+   "unitPrice": 23.42
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-08-14T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 2.76816609,
+   "symbol": "MSTE.TO",
+   "type": "BUY",
+   "unitPrice": 14.45
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-08-18T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 2.01775626,
+   "symbol": "QDAY.NE",
+   "type": "BUY",
+   "unitPrice": 24.78
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-08-19T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 6.21976503,
+   "symbol": "MSTE.TO",
+   "type": "BUY",
+   "unitPrice": 14.47
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-08-21T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 3.44234079,
+   "symbol": "BCCL.NE",
+   "type": "BUY",
+   "unitPrice": 23.24
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-08-22T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1.64263552,
+   "symbol": "LETH.TO",
+   "type": "BUY",
+   "unitPrice": 54.79
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-08-25T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 3.5335689,
+   "symbol": "BCCL.NE",
+   "type": "BUY",
+   "unitPrice": 22.64
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-09-05T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1.82555781,
+   "symbol": "LETH.TO",
+   "type": "BUY",
+   "unitPrice": 49.3
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-09-19T16:00:00.000Z",
+   "fee": 0,
+   "quantity": 93.04350901,
+   "symbol": "BIGY.TO",
+   "type": "BUY",
+   "unitPrice": 22.12897366
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-09-22T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 3.12744332,
+   "symbol": "MSTE.TO",
+   "type": "BUY",
+   "unitPrice": 12.79
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-09-23T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1.80360721,
+   "symbol": "LETH.TO",
+   "type": "BUY",
+   "unitPrice": 49.9
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-09-24T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1.61030596,
+   "symbol": "LETH.TO",
+   "type": "BUY",
+   "unitPrice": 49.68
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-09-25T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 5.60344828,
+   "symbol": "BCCL.NE",
+   "type": "BUY",
+   "unitPrice": 23.2
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-09-26T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 7.87401575,
+   "symbol": "MSTE.TO",
+   "type": "BUY",
+   "unitPrice": 12.7
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-09-30T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 7.51879699,
+   "symbol": "CNYE.TO",
+   "type": "BUY",
+   "unitPrice": 13.3
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-10-01T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 17.03800786,
+   "symbol": "BCCL.NE",
+   "type": "BUY",
+   "unitPrice": 22.89
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-10-02T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 7.67056924,
+   "symbol": "QDAY.NE",
+   "type": "BUY",
+   "unitPrice": 24.77
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-10-03T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 10.71428571,
+   "symbol": "BIGY.TO",
+   "type": "BUY",
+   "unitPrice": 25.2
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-10-06T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 3.36983993,
+   "symbol": "BCCL.NE",
+   "type": "BUY",
+   "unitPrice": 23.74
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-10-07T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 0.77927138,
+   "symbol": "LETH.TO",
+   "type": "BUY",
+   "unitPrice": 51.33
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-10-08T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 0.78616352,
+   "symbol": "MSTE.TO",
+   "type": "BUY",
+   "unitPrice": 12.72
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-10-09T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 0.84388186,
+   "symbol": "LETH.TO",
+   "type": "BUY",
+   "unitPrice": 47.4
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-10-13T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1.90694127,
+   "symbol": "QDAY.NE",
+   "type": "BUY",
+   "unitPrice": 26.22
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-10-14T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 3.01075269,
+   "symbol": "BCCL.NE",
+   "type": "BUY",
+   "unitPrice": 23.25
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-10-15T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 5.32724505,
+   "symbol": "MSTE.TO",
+   "type": "BUY",
+   "unitPrice": 13.14
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-10-16T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 8.27067669,
+   "symbol": "BIGY.TO",
+   "type": "BUY",
+   "unitPrice": 26.6
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-10-17T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 2.37906423,
+   "symbol": "NFLY.TO",
+   "type": "BUY",
+   "unitPrice": 12.61
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-10-20T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 15.86042823,
+   "symbol": "NFLY.TO",
+   "type": "BUY",
+   "unitPrice": 12.61
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-10-22T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 16.66666667,
+   "symbol": "NFLY.TO",
+   "type": "BUY",
+   "unitPrice": 12.6
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-10-23T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 8.63422292,
+   "symbol": "MSTE.TO",
+   "type": "BUY",
+   "unitPrice": 12.74
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-10-24T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 0.74682599,
+   "symbol": "QDAY.NE",
+   "type": "BUY",
+   "unitPrice": 26.78
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-10-28T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 18.05869074,
+   "symbol": "AMHE.TO",
+   "type": "BUY",
+   "unitPrice": 13.29
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-10-30T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 0.7518797,
+   "symbol": "BIGY.TO",
+   "type": "BUY",
+   "unitPrice": 26.6
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-10-31T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1.51543853,
+   "symbol": "LETH.TO",
+   "type": "BUY",
+   "unitPrice": 52.79
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-11-03T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 11.816839,
+   "symbol": "NFLY.TO",
+   "type": "BUY",
+   "unitPrice": 13.54
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-11-05T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 7.50469043,
+   "symbol": "BIGY.TO",
+   "type": "BUY",
+   "unitPrice": 26.65
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-11-07T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 5.11882998,
+   "symbol": "QDAY.NE",
+   "type": "BUY",
+   "unitPrice": 27.35
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-11-10T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 9.35628743,
+   "symbol": "BIGY.TO",
+   "type": "BUY",
+   "unitPrice": 26.72
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-11-11T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 11.50306748,
+   "symbol": "BIGY.TO",
+   "type": "BUY",
+   "unitPrice": 26.08
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-11-13T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 0.74906367,
+   "symbol": "AMHE.TO",
+   "type": "BUY",
+   "unitPrice": 13.35
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-11-17T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 11.1627907,
+   "symbol": "BCCL.NE",
+   "type": "BUY",
+   "unitPrice": 21.5
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-11-18T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1.8818216,
+   "symbol": "QDAY.NE",
+   "type": "BUY",
+   "unitPrice": 26.57
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-11-19T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1.57480315,
+   "symbol": "BIGY.TO",
+   "type": "BUY",
+   "unitPrice": 25.4
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-11-21T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1.90657769,
+   "symbol": "MSTE.TO",
+   "type": "BUY",
+   "unitPrice": 10.49
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-11-24T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 20.10582011,
+   "symbol": "MSTE.TO",
+   "type": "BUY",
+   "unitPrice": 9.45
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-11-25T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 8.28460039,
+   "symbol": "BCCL.NE",
+   "type": "BUY",
+   "unitPrice": 20.52
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-11-27T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 0.81677103,
+   "symbol": "LETH.TO",
+   "type": "BUY",
+   "unitPrice": 36.73
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-11-28T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 5.21405049,
+   "symbol": "LETH.TO",
+   "type": "BUY",
+   "unitPrice": 36.44
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-12-01T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 17.6056338,
+   "symbol": "MSTE.TO",
+   "type": "BUY",
+   "unitPrice": 8.52
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-12-03T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 5.48446069,
+   "symbol": "QDAY.NE",
+   "type": "BUY",
+   "unitPrice": 27.35
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-12-04T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 6.89375507,
+   "symbol": "HBTE.NE",
+   "type": "BUY",
+   "unitPrice": 24.66
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-12-08T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 3.93236335,
+   "symbol": "BIGY.TO",
+   "type": "BUY",
+   "unitPrice": 25.43
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-12-09T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1.34318334,
+   "symbol": "AMHE.TO",
+   "type": "BUY",
+   "unitPrice": 14.89
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-12-10T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 1e-08,
+   "symbol": "MSTE.TO",
+   "type": "BUY",
+   "unitPrice": 8.4
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-12-12T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 8.81953867,
+   "symbol": "AMHE.TO",
+   "type": "BUY",
+   "unitPrice": 14.74
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-12-15T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 6.34668782,
+   "symbol": "BIGY.TO",
+   "type": "BUY",
+   "unitPrice": 25.21
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-12-16T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 16.80672269,
+   "symbol": "NFLY.TO",
+   "type": "BUY",
+   "unitPrice": 11.9
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-12-18T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 0.74794316,
+   "symbol": "HHIS.TO",
+   "type": "BUY",
+   "unitPrice": 13.37
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2025-12-19T20:00:00.000Z",
+   "fee": 0,
+   "quantity": 0.74682599,
+   "symbol": "QDAY.NE",
+   "type": "BUY",
+   "unitPrice": 26.78
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2026-08-28T18:00:00.000Z",
+   "fee": 0,
+   "quantity": 301.44837516,
+   "symbol": "ACT.TO",
+   "type": "SELL",
+   "unitPrice": 19.69
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2026-08-28T18:01:00.000Z",
+   "fee": 0,
+   "quantity": 1095.94909033,
+   "symbol": "BANK.TO",
+   "type": "SELL",
+   "unitPrice": 11.445
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2026-08-28T18:01:00.000Z",
+   "fee": 0,
+   "quantity": 299.86150203,
+   "symbol": "AMHE.TO",
+   "type": "SELL",
+   "unitPrice": 14.41
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2026-08-28T18:02:00.000Z",
+   "fee": 0,
+   "quantity": 249.96160444,
+   "symbol": "BCCL.NE",
+   "type": "SELL",
+   "unitPrice": 11.14
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2026-08-28T18:03:00.000Z",
+   "fee": 0,
+   "quantity": 59.95474176,
+   "symbol": "BIGY.TO",
+   "type": "SELL",
+   "unitPrice": 16.17
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2026-08-28T18:05:00.000Z",
+   "fee": 0,
+   "quantity": 60.40894244,
+   "symbol": "CNYE.TO",
+   "type": "SELL",
+   "unitPrice": 4.74
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2026-08-28T18:06:00.000Z",
+   "fee": 0,
+   "quantity": 265.45188053,
+   "symbol": "ENCL.TO",
+   "type": "SELL",
+   "unitPrice": 23.245
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2026-08-28T18:07:00.000Z",
+   "fee": 0,
+   "quantity": 138.00688203,
+   "symbol": "HBTE.NE",
+   "type": "SELL",
+   "unitPrice": 14.62
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2026-08-28T18:10:00.000Z",
+   "fee": 0,
+   "quantity": 752.83154053,
+   "symbol": "HHIS.TO",
+   "type": "SELL",
+   "unitPrice": 11.49
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2026-08-28T18:12:00.000Z",
+   "fee": 0,
+   "quantity": 156.28481072,
+   "symbol": "HYLD.TO",
+   "type": "SELL",
+   "unitPrice": 16.03
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2026-08-28T18:15:00.000Z",
+   "fee": 0,
+   "quantity": 25.0942919,
+   "symbol": "LETH.TO",
+   "type": "SELL",
+   "unitPrice": 22.15
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2026-08-28T18:17:00.000Z",
+   "fee": 0,
+   "quantity": 272.67260679,
+   "symbol": "MSHE.TO",
+   "type": "SELL",
+   "unitPrice": 10.01
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2026-08-28T18:18:00.000Z",
+   "fee": 0,
+   "quantity": 868.69709999,
+   "symbol": "MSTE.TO",
+   "type": "SELL",
+   "unitPrice": 2.37
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2026-08-28T18:19:00.000Z",
+   "fee": 0,
+   "quantity": 163.53033807,
+   "symbol": "NFLY.TO",
+   "type": "SELL",
+   "unitPrice": 6.67
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2026-08-28T18:21:00.000Z",
+   "fee": 0,
+   "quantity": 166.80946954,
+   "symbol": "QDAY.NE",
+   "type": "SELL",
+   "unitPrice": 28.73
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2026-08-28T18:23:00.000Z",
+   "fee": 0,
+   "quantity": 489.36051326,
+   "symbol": "QQCL.TO",
+   "type": "SELL",
+   "unitPrice": 26.92
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2026-08-28T18:26:00.000Z",
+   "fee": 0,
+   "quantity": 41.62261279,
+   "symbol": "YGOG.NE",
+   "type": "SELL",
+   "unitPrice": 56.41
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2026-08-28T18:27:00.000Z",
+   "fee": 0,
+   "quantity": 228.91471938,
+   "symbol": "HTAE.TO",
+   "type": "SELL",
+   "unitPrice": 20.7
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2026-08-28T18:28:00.000Z",
+   "fee": 0,
+   "quantity": 1e-08,
+   "symbol": "YTSL.NE",
+   "type": "SELL",
+   "unitPrice": 15.02
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2026-08-28T18:40:00.000Z",
+   "fee": 0,
+   "quantity": 220.93960039,
+   "symbol": "NVHE.TO",
+   "type": "SELL",
+   "unitPrice": 13.55
+  },
+  {
+   "currency": "USD",
+   "dataSource": "YAHOO",
+   "date": "2026-08-28T18:50:00.000Z",
+   "fee": 0,
+   "quantity": 1153.29336582,
+   "symbol": "TSLY",
+   "type": "SELL",
+   "unitPrice": 21.84
+  },
+  {
+   "currency": "CAD",
+   "dataSource": "YAHOO",
+   "date": "2026-08-28T18:52:00.000Z",
+   "fee": 0,
+   "quantity": 401.09216245,
+   "symbol": "USCL.TO",
+   "type": "SELL",
+   "unitPrice": 24.75
+  }
+ ]
+}
