@@ -1,10 +1,10 @@
 # Ghostfolio on a NAS
 
-Self-host [Ghostfolio](https://github.com/ghostfolio/ghostfolio) on a home NAS, load a **synthetic** covered-call ETF portfolio into it, and connect an MCP server so an AI assistant can read it.
+Self-host [Ghostfolio](https://github.com/ghostfolio/ghostfolio) on a home NAS, load a sample portfolio into it, and connect an MCP server so an AI assistant can read it.
 
-Everything here uses synthetic data. The portfolio is a CA$100,000 reconstruction of a publicly shared "dividend empire" style book — 29 Canadian-listed positions, mostly covered-call and yield-enhanced ETFs — built from public trade lists and public prices. No real holdings, balances, or account identifiers appear anywhere in this repository.
+The sample data is synthetic: a demo user's activity history priced from public market data. No real holdings, balances, or account identifiers appear anywhere in this repository.
 
-Scope for now: a working setup path with the parts that are not obvious from the upstream README written down. Analysis tooling on top of it is being reviewed separately and is not part of this guide yet.
+Scope: a working setup path with the parts that are not obvious from the upstream README written down.
 
 ---
 
@@ -67,9 +67,9 @@ Things worth knowing before the first `up`:
 3. **Admin Control → Users** to create a second, non-admin user for demos. That user gets its own security token; use it — never the admin token — for anything an AI tool or a screenshot will see.
 4. Under the demo user: **Accounts → Add account** (platform, currency). Activities are booked against an account, so this comes before any import.
 
-### 1.3 Loading the synthetic portfolio
+### 1.3 Loading the sample portfolio
 
-[`fixtures/demo-activities.import.json`](fixtures/demo-activities.import.json) is the synthetic book in Ghostfolio's import format — 374 BUY/SELL activities from 2023-12-19 to 2026-08-28. Import it under the demo user via **Portfolio → Activities → Import**, choose the account, and confirm the preview. The same file also works against the API:
+[`fixtures/demo-activities.import.json`](fixtures/demo-activities.import.json) is a sample activity history in Ghostfolio's import format — 374 BUY/SELL activities across 29 Canadian-listed ETFs and stocks, 2023-12-19 to 2026-08-28. Import it under the demo user via **Portfolio → Activities → Import**, choose the account, and confirm the preview. The same file also works against the API:
 
 ```bash
 # JWT from the security token
@@ -87,11 +87,11 @@ After import, **Admin Control → Market Data** shows one row per symbol. Ghostf
 
 ### 1.4 Screenshot tour
 
-Captured from the demo user with [`tools/screenshots.mjs`](tools/screenshots.mjs) (Playwright; it logs in through Ghostfolio's `/en/auth/<jwt>` route, so the security token never touches the browser, and takes full-page captures). Every value shown is the CA$100k synthetic book.
+Captured from the demo user with [`tools/screenshots.mjs`](tools/screenshots.mjs) (Playwright; it logs in through Ghostfolio's `/en/auth/<jwt>` route, so the security token never touches the browser, and takes full-page captures). Every value shown comes from the synthetic sample portfolio.
 
 | | |
 |---|---|
-| [Holdings](docs/screenshots/02-holdings.png) — 29 positions with quantity, value, allocation and performance | [Allocations](docs/screenshots/05-allocations.png) — platform, currency, asset class, per-holding |
+| [Holdings](docs/screenshots/02-holdings.png) — positions with quantity, value, allocation and performance | [Allocations](docs/screenshots/05-allocations.png) — platform, currency, asset class, per-holding |
 | [Overview](docs/screenshots/01-home.png) and [Summary](docs/screenshots/03-summary.png) | [Activities](docs/screenshots/06-activities.png) — the 374 imported BUY/SELL rows |
 | [X-ray](docs/screenshots/07-xray.png) — Ghostfolio's built-in concentration and cluster-risk rules | [FIRE](docs/screenshots/08-fire.png) — the 4%-rule calculator |
 | [Accounts](docs/screenshots/09-accounts.png) | [Settings](docs/screenshots/10-settings.png) and [Access](docs/screenshots/11-access.png) — where an MCP access is created |
@@ -133,9 +133,8 @@ Publish the container's port like any other service (`ports: ["8444:8001"]` on t
 ## Layout
 
 ```
-fixtures/demo-holdings.json            29 synthetic positions with weights
-fixtures/demo-activities.import.json   374 activities in Ghostfolio import format
-fixtures/market/<SYMBOL>.json          5y monthly closes + distributions per unit (Yahoo, 2026-08-30)
+fixtures/demo-holdings.json            the sample portfolio's positions and weights
+fixtures/demo-activities.import.json   its 374 activities in Ghostfolio import format
 tools/screenshots.mjs                  Playwright tour of a Ghostfolio user
 docs/screenshots/                      the tour, captured from the demo user
 ```
